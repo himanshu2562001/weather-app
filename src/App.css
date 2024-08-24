@@ -1,0 +1,46 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://imgs.search.brave.com/zSiLRRhSmL_slSCPJMF6z21v4flOziDa_B1_hlgd8tA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9hY2N1cmF0ZS13/ZWF0aGVyLW1vZGVs/aW5nLXByZWRpY3Rp/b25zXzgxMDI5My0y/ODkxOTIuanBnP3Np/emU9NjI2JmV4dD1q/cGc') no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #e0f7fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  width: 400px;
+  padding: 20px;
+  background: linear-gradient(45deg, rgb(71 118 169 / 92%),  rgb(216 153 35 / 85%));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+#current-weather {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#forecast-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#forecast-container .forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#history-container {
+  margin-top: 20px;
+}
